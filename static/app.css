@@ -1,0 +1,18 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: contents; /* Allows for grid to be applied to children */
+}
+
+.cell {
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 24px;
+    background-color: #f0f0f0;
+}
